@@ -192,6 +192,9 @@
                 </executions>
                 <configuration>
                     <apiToken>${env.SNYK_TOKEN}</apiToken>
+                    <args>
+                        <arg>--all-projects</arg>
+                    </args>
                 </configuration>
             </plugin>
             <plugin>
